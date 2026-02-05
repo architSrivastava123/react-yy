@@ -4,6 +4,7 @@ const App = () => {
   const sumbithandler=(e)=>{
     e.preventDefault();
     console.log("form submitted");
+    
   }
 
   
@@ -12,7 +13,7 @@ const App = () => {
       <form className='flex gap-4 justify-between items-start flex-col p-10' onSubmit={(e)=>{
         sumbithandler(e)
       }}>
-        <h1 className=' text-4xl font-bold  '> 
+        <h1 className=' text-3xl font-bold  '> 
           Add Your Note
         </h1>
         <input type="text" placeholder="Enter your note Heading..." 
